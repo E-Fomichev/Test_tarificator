@@ -8,6 +8,10 @@ import profiles
 # kfr = [0.8, 0.75, 0.65, 0.55, 0.5]                    # коэффициент в зависимости о твеличины франшизы
 # kvs =                                                 # коэффициент возраста - стажа водителя
 
+def test_1():
+    sum = SS * (Тбс * Кв * Кфр + Тх)
+
+
 def test():
     profiles.profiles_prepare()
     profiles.profiles_accept_prepared()
